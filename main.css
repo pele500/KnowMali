@@ -1,0 +1,152 @@
+@font-face {
+    font-family: assistant;
+    src: url(./assets/Assistant.ttf);
+}
+
+@font-face {
+    font-family: assistantBold;
+    src: url(./assets/Assistant\ Bold.ttf);
+}
+
+body {
+    background-image: url(./assets/graphic/background.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#idf {
+    width: 13vmax;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#headline {
+    position: absolute;
+    width: 37vmax;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#more {
+    position: absolute;
+    top: 13vh;
+    width: 38vmax;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#treeMali {
+    display: none;
+}
+
+#tree {
+    position: relative;
+    left: -16vw;
+    width: 123vw;
+    height: 71vh;
+    z-index: 1;
+    bottom: 74vh;
+}
+
+#btnMali {
+    position: absolute;
+    top: 18vh;
+    width: 42vmax;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#icons {
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    top: 37vh;
+}
+
+#bee_shop {
+    position: absolute;
+    top: 0vh;
+    right: 11vw;
+    width: 27vmax;
+}
+
+#fitness {
+    position: absolute;
+    top: 17vh;
+    right: 8vw;
+    width: 28vmax;
+}
+
+#salon {
+    position: absolute;
+    top: 35vh;
+    right: 8vw;
+    width: 26vmax;
+}
+
+#food {
+    position: absolute;
+    top: 0vh;
+    right: 46vw;
+    width: 27vmax;
+}
+
+#hospital {
+    position: absolute;
+    top: 17vh;
+    right: 44vw;
+    width: 29vmax;
+}
+
+#uni {
+    position: absolute;
+    top: 35vh;
+    right: 46vw;
+    width: 27vmax;
+}
+
+.infos {
+    width: 100vw;
+    position: relative;
+    right: 2vw;
+}
+
+#info {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+    opacity: 0.2;
+    background-color: black;
+    z-index: 1;
+}
+
+#showInfo {
+    display: none;
+    z-index: 2;
+    position: absolute;
+}
+
+#x {
+    position: absolute;
+    right: 21vw;
+    top: 24vh;
+    width: 5vw;
+    height: 3vh;
+}
+
+#back {
+    position: absolute;
+    right: 70vw;
+    z-index: 2;
+    top: 85vh;
+    width: 9vmax;
+}
+
+@media screen and (max-width:375px) {}
+
+@media screen and (max-width:320px) {}
